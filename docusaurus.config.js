@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'One Touch Provisioning documentation',
   tagline: 'Consistent multi-hybrid cloud workload deployment made straightforward',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -65,9 +65,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'One Touch Provisioning',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'One Touch Provisioning Logo',
           src: 'img/logo.svg',
         },
         items: [
