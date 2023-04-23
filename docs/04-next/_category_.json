@@ -1,8 +1,4 @@
 {
   "label": "What's next",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Play with experimental features"
-  }
+  "position": 4
 }

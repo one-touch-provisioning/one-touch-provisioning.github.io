@@ -82,3 +82,7 @@ OTP is consisted of 6 repositories: 1 bootstrap repository `otp-gitops`, contain
 By splitting up the codebase into layers, we give the maintenance of the source repositories to the teams who have the most expertise in that subject matter. Cloud engineers from feature teams can consume a set of templates, source repositories from central IT and risk compliance teams.
 
 Operationally, we would want ot ensure these repositories are inner-sourced, so teams can review and innovate upon them.
+
+## Getting started
+
+To get started, head over to the [`one-touch-provisioning/otp-gitops`](https://github.com/one-touch-provisioning/otp-gitops).
