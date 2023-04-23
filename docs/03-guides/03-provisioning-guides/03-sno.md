@@ -1,0 +1,1 @@
+# Deploy a single-node OpenShift (SNO) cluster
