@@ -23,7 +23,9 @@ spec:
 
 In this pattern, we have an overarching `bootstrap` app, that deploys multiple ArgoCD applications: `infra`, `services`, `policies`, `clusters`, and `apps`.
 
-The ArgoCD Application can specify where its source templates come from by specifying the `spec.source.repoURL` and `spec.source.targetRevision` fields. 
+## Application template source
+
+An ArgoCD Application can specify where its source templates come from by specifying the `spec.source.repoURL` and `spec.source.targetRevision` fields. 
 
 In the following example, an ArgoCD application called `cluster-claim-argocd-app` deploys a Helm template in the `otp-gitops-clusters` [repository](https://github.com/one-touch-provisioning/otp-gitops-clusters). The path `clusterclaims` points to a [folder](https://github.com/one-touch-provisioning/otp-gitops-clusters/tree/master/clusterclaims) within the `otp-gitops-clusters` repository.
 
