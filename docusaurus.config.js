@@ -68,7 +68,7 @@ const config = {
         title: 'One Touch Provisioning',
         logo: {
           alt: 'One Touch Provisioning Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
